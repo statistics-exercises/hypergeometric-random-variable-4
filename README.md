@@ -6,7 +6,7 @@ You now know how to generate yet another kind of random variable.  If you want y
 
 where the ![](https://render.githubusercontent.com/render/math?math=X_i) are the ![](https://render.githubusercontent.com/render/math?math=n) random variables.  The ![](https://render.githubusercontent.com/render/math?math=p\times100)% confidence limit can then be computed as:
 
-![](https://render.githubusercontent.com/render/math?math=\epsilon=\sqrt{\frac{S^2}{n}}\Phi^{-1}\left( \frac{p+1}{2}\right))
+![](https://render.githubusercontent.com/render/math?math=\epsilon=\sqrt{\frac{S^2}{n}}\Phi^{-1}\left(\frac{p+1}{2}\right))
 
 where ![](https://render.githubusercontent.com/render/math?math=\Phi^{-1}) is the inverse of the normal distribution.  You can compute the value of this function at ![](https://render.githubusercontent.com/render/math?math=p) in python using:
 
